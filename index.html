@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ihane Official Website</title>
+    <style>
+        /* 全体のデザイン（宇宙・夜空をイメージしたダークトーン） */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #0f0c20 0%, #15102a 50%, #06040a 100%);
+            color: #e0e0e6;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.03);
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            backdrop-filter: blur(8px);
+            border: 1px rgba(255, 255, 255, 0.05) solid;
+        }
+        
+        /* アーティスト画像（ihane.png）のスタイリング */
+        .artist-img {
+            width: 150px; /* 画像の幅（お好みで調整してください） */
+            height: 150px; /* 画像の高さ */
+            object-fit: cover; /* 縦横比を崩さずに枠内に収める */
+            border-radius: 50%; /* 正円にする（四角がいい場合は 15px などにしてください） */
+            margin: 0 auto 20px auto;
+            display: block;
+            box-shadow: 0 0 20px rgba(147, 112, 219, 0.3);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            letter-spacing: 4px;
+            margin-bottom: 5px;
+            color: #ffffff;
+            text-shadow: 0 0 10px rgba(147, 112, 219, 0.5);
+        }
+        .subtitle {
+            font-size: 1rem;
+            letter-spacing: 2px;
+            color: #aaa7c0;
+            margin-bottom: 30px;
+        }
+        .profile-section {
+            text-align: left;
+            margin-bottom: 40px;
+            line-height: 1.8;
+            font-size: 0.95rem;
+        }
+        .profile-section h2 {
+            font-size: 1.2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 5px;
+            color: #b39ddb;
+            margin-top: 30px;
+        }
+        .profile-text {
+            color: #ccc9e0;
+            margin-bottom: 20px;
+        }
+        /* リンクボタンのデザイン */
+        .links-section {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .link-btn {
+            display: block;
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.07);
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .link-btn:hover {
+            background: #673ab7;
+            box-shadow: 0 0 15px rgba(103, 58, 183, 0.6);
+            transform: translateY(-2px);
+            border-color: transparent;
+        }
+        .tunecore-btn { border-color: #ff3366; }
+        .tunecore-btn:hover { background: #ff3366; box-shadow: 0 0 15px rgba(255, 51, 102, 0.6); }
+        footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #625f78;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="ihane.png" alt="Ihane" class="artist-img">
+
+    <h1>イハネ / Ihane</h1>
+    <div class="subtitle">Sound Creator</div>
+
+    <div class="links-section">
+        <a class="link-btn tunecore-btn" href="https://www.tunecore.co.jp/artists/Ihane" target="_blank">TuneCore (Music Release)</a>
+        <a class="link-btn" href="https://www.youtube.com/@luck_vibes_ihane" target="_blank">YouTube</a>
+        <a class="link-btn" href="https://x.com/luckvibes_ihane" target="_blank">X (Twitter)</a>
+        <a class="link-btn" href="https://www.instagram.com/luck_vibes_ihane" target="_blank">Instagram</a>
+        <a class="link-btn" href="https://www.tiktok.com/@luck_vibes_ihane" target="_blank">TikTok</a>
+    </div>
+
+    <div class="profile-section">
+        <h2>Biography</h2>
+        <p class="profile-text">
+            占星術の神秘を背景に、ヒップホップ、チル、lo-fiのモダンなエッセンスを織り交ぜたサウンドクリエーター。星々のリズムや惑星の周期がビートに溶け込み、聴く者を幻想的な音の宇宙へと誘うスタイルが特徴。現代的でありながら、どこかノスタルジックなメロディーと柔らかなビートが、日常の風景をまるで別世界のように彩る。リアルと幻想の狭間で、リスナーが心の奥に潜む無限の可能性を見つける、そんな音楽体験を提供している。
+        </p>
+
+        <h2>English Profile</h2>
+        <p class="profile-text" style="font-size: 0.9rem;">
+            An artist who blends the mysteries of astrology with the modern elements of hip-hop, chill, and lo-fi soundscapes. Known for a unique style where cosmic rhythms and planetary cycles merge into beats, transporting listeners into a surreal world of sound. With melodies that are both contemporary and nostalgically warm, the music transforms everyday scenes into a realm of the extraordinary. Balancing between reality and fantasy, the artist creates an experience where listeners can uncover the infinite potential within themselves.
+        </p>
+    </div>
+
+    <footer>&copy; Ihane All Rights Reserved.</footer>
+</div>
+
+</body>
+</html>
